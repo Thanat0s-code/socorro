@@ -1,0 +1,81 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.aulaparte2;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Vitor
+ */
+public class AulaParte2 {
+
+    public static void main(String[] args) {
+        Scanner scanf = new Scanner(System.in);
+        
+        Reu reu = new Reu();
+        Advogado advogado = new Advogado();
+        Promotor promotor = new Promotor();
+        Juiz juiz = new Juiz();
+        
+        System.out.println("Digite o nome do réu: ");
+        reu.setNome(scanf.next());
+        System.out.println("Digite a idade do réu: ");
+        reu.setIdade(scanf.nextInt());
+        System.out.println("Digite o peso do réu: ");
+        reu.setPeso(scanf.nextDouble());
+        System.out.println("Digite a altura do réu: ");
+        reu.setAltura(scanf.nextDouble());
+        
+        System.out.println("Digite o nome do advogado: ");
+        advogado.setNome(scanf.next());
+        System.out.println("Digite a idade do advogado: ");
+        advogado.setIdade(scanf.nextInt());
+        System.out.println("Digite o peso do advogado: ");
+        advogado.setPeso(scanf.nextDouble());
+        System.out.println("Digite a altura do advogado: ");
+        advogado.setAltura(scanf.nextDouble());
+        
+        System.out.println("Digite o nome do promotor: ");
+        promotor.setNome(scanf.next());
+        System.out.println("Digite a idade do promotor: ");
+        promotor.setIdade(scanf.nextInt());
+        System.out.println("Digite o peso do promotor: ");
+        promotor.setPeso(scanf.nextDouble());
+        System.out.println("Digite a altura do promotor: ");
+        promotor.setAltura(scanf.nextDouble());
+        
+        System.out.println("Digite o nome do juiz: ");
+        juiz.setNome(scanf.next());
+        System.out.println("Digite a idade do juiz: ");
+        juiz.setIdade(scanf.nextInt());
+        System.out.println("Digite o peso do juiz: ");
+        juiz.setPeso(scanf.nextDouble());
+        System.out.println("Digite a altura do juiz: ");
+        juiz.setAltura(scanf.nextDouble());
+        
+        System.out.print("O réu se chama ");
+        System.out.print(reu.getNome());
+        System.out.print(" e tem ");
+        System.out.print(reu.getIdade());
+        System.out.print(" anos, pesa ");
+        System.out.print(reu.getPeso());
+        System.out.print(" quilos e mede ");
+        System.out.print(reu.getIdade());
+        
+        System.out.println("");
+        
+        System.out.print("O advogado se chama ");
+        System.out.print(advogado.getNome());
+        System.out.print(" e tem ");
+        System.out.print(advogado.getIdade());
+        System.out.print(" anos, pesa ");
+        System.out.print(advogado.getPeso());
+        System.out.print(" quilos e mede ");
+        System.out.print(advogado.getIdade());
+        
+        System.out.println("");
+    }
+}

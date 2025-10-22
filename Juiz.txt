@@ -1,0 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.aulaparte2;
+
+/**
+ *
+ * @author Vitor
+ */
+public class Juiz extends Advogado {
+    
+    public void julgar() {
+        System.out.println("Julgando");
+    }
+    
+    @Override
+    public void defender() {
+        
+    }
+    
+    @Override
+    public void atacar() {
+        
+    }
+    
+}

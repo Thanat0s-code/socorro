@@ -1,0 +1,20 @@
+
+package com.mycompany.aulaparte1;
+
+import java.util.Scanner;
+
+public class AulaParte1 {
+
+    public static void main(String[] args) {
+        
+        Bebe bebe = new Bebe();
+        Scanner scanf = new Scanner(System.in, "UTF-8");
+        int idade;
+
+        System.out.print("Digite a idade: ");
+        idade = scanf.nextInt();
+        bebe.setIdade(idade);
+       
+        System.out.println("Idade do bebe: " + bebe.getIdade());
+    }
+}
